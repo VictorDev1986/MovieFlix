@@ -30,22 +30,6 @@ Movieflix es una Single Page Application (SPA) estilo Netflix desarrollada con R
 ### 🌐 Demo en Vivo
 [Ver Demo](https://moviefl.netlify.app)
 
-### 📹 Video Demo
-
-<div align="center">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; max-width: 800px; margin: 0 auto;">
-    <iframe 
-      src="https://www.loom.com/embed/3fb7546154514dd2b00b32c28680cb03?sid=65f29067-c017-461c-b19f-3744d490bb82" 
-      frameborder="0" 
-      webkitallowfullscreen 
-      mozallowfullscreen 
-      allowfullscreen 
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    </iframe>
-  </div>
-</div>
-
-<p align="center"><em>Video demostración de todas las funcionalidades de Movieflix - se reproduce directamente aquí.</em></p>
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -62,6 +46,8 @@ Movieflix es una Single Page Application (SPA) estilo Netflix desarrollada con R
 
 ### API
 - **The Movie Database (TMDB)** - Fuente de datos de películas
+  - [Documentación oficial de TMDB API](https://developers.themoviedb.org/3/getting-started/introduction)
+  - [Obtener API Key gratuita](https://www.themoviedb.org/settings/api)
 
 ## 🚀 Empezando
 
