@@ -1,6 +1,6 @@
-# 🎬 Filmflix - Plataforma de Streaming de Películas
+# 🎬 Movieflix - Plataforma de Streaming de Películas
 
-Streamyfy es una Single Page Application (SPA) estilo Netflix desarrollada con React, TypeScript y Vite. Esta aplicación consume la API de The Movie Database (TMDB) para ofrecer una experiencia completa de navegación y descubrimiento de películas, incluyendo información detallada, calificaciones, géneros y más.
+Movieflix es una Single Page Application (SPA) estilo Netflix desarrollada con React, TypeScript y Vite. Esta aplicación consume la API de The Movie Database (TMDB) para ofrecer una experiencia completa de navegación y descubrimiento de películas, incluyendo información detallada, calificaciones, géneros y más.
 
 [![Estado del Proyecto](https://img.shields.io/badge/Estado-Activo-brightgreen)](https://github.com/yourusername/Filmflix)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-blue.svg)](LICENSE)
@@ -10,25 +10,15 @@ Streamyfy es una Single Page Application (SPA) estilo Netflix desarrollada con R
 
 ## 🌐 Demo en vivo
 
-Explora la aplicación en vivo: [Streamyfy Demo](https://Filmflix-demo.example.com)
+Explora la aplicación en vivo: [Movieflix Demo](https://Filmflix-demo.example.com)
 
-## 📸 Capturas de pantalla
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x450?text=Filmflix+Pantalla+Principal" alt="Pantalla principal de Filmflix" width="80%" />
-</div>
-
-<p align="center">Pantalla principal con películas populares</p>
+## 📸 Video del proyecto
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450?text=Filmflix+Detalles+de+Pelicula" alt="Detalles de película" width="80%" />
-</div>
+   <video src="public/Movieflix.mp4" controls width="80%">
+      Tu navegador no soporta la reproducción de video.
+   </video>
 
-<p align="center">Vista detallada de película</p>
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x450?text=Filmflix+Vista+Móvil" alt="Vista móvil de Filmflix" width="40%" />
-</div>
 
 <p align="center">Experiencia móvil optimizada</p>
 
