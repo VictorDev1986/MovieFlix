@@ -72,31 +72,31 @@ const TopRatedPage: React.FC = () => {
       {/* Pagination */}
       {!loading && totalPages > 1 && (
         <div className="flex justify-center mt-8">
-          <div className="flex space-x-2">
+          <div className="flex items-center space-x-0.5 sm:space-x-2">
             <button
               onClick={handlePreviousPage}
               disabled={page === 1}
-              className={`px-4 py-2 rounded-md ${
+              className={`px-1 py-0.5 sm:px-3 sm:py-2 text-xs sm:text-sm rounded transition-colors ${
                 page === 1
                   ? 'bg-gray-700 text-gray-400 cursor-not-allowed'
-                  : 'bg-gray-800 text-white hover:bg-gray-700'
+                  : 'bg-gray-800 text-white hover:bg-gray-700 active:bg-gray-600'
               }`}
             >
-              Anterior
+              ‹
             </button>
-            <span className="px-4 py-2 bg-gray-800 text-white rounded-md">
-              Página {page} de {Math.min(totalPages, 500)}
+            <span className="px-2 py-0.5 sm:px-3 sm:py-2 bg-purple-600 text-white text-xs sm:text-sm rounded font-medium">
+              {page}/{Math.min(totalPages, 500)}
             </span>
             <button
               onClick={handleNextPage}
               disabled={page === Math.min(totalPages, 500)}
-              className={`px-4 py-2 rounded-md ${
+              className={`px-1 py-0.5 sm:px-3 sm:py-2 text-xs sm:text-sm rounded transition-colors ${
                 page === Math.min(totalPages, 500)
                   ? 'bg-gray-700 text-gray-400 cursor-not-allowed'
-                  : 'bg-gray-800 text-white hover:bg-gray-700'
+                  : 'bg-gray-800 text-white hover:bg-gray-700 active:bg-gray-600'
               }`}
             >
-              Siguiente
+              ›
             </button>
           </div>
         </div>
